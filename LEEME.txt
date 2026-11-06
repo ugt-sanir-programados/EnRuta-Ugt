@@ -1,0 +1,64 @@
+EN RUTA · UGT SANIR PROGRAMADOS — INSTALACIÓN EN EL MÓVIL
+
+Descomprime este ZIP. Sube TODO el contenido de esta carpeta a la misma carpeta de tu web en GitHub
+o Netlify, incluidas las carpetas assets y vendor. index.html debe quedar
+en la raíz de la carpeta publicada.
+Sustituye el index anterior. No subas el ZIP sin descomprimir.
+No hace falta publicar en Play Store ni instalar un APK.
+
+Abre la dirección HTTPS de tu GitHub Pages en el móvil.
+Android (Chrome): pulsa Instalar En Ruta; si el navegador aún no ofrece
+el diálogo, usa su menú ⋮ → Instalar aplicación / Añadir a pantalla de inicio.
+iPhone (Safari): Compartir → Añadir a pantalla de inicio → Añadir.
+El botón desaparece cuando abres la aplicación en su ventana instalada.
+
+La navegación, búsqueda, mapas y tráfico requieren internet y permisos GPS.
+Mantén la aplicación visible al navegar. La instalación no garantiza GPS
+en segundo plano. La interfaz y Leaflet están incluidos y pueden abrirse sin conexión tras
+una primera carga completa; los mapas, búsquedas y cálculos necesitan internet.
+
+MODO AHORRO PARA EQUIPOS
+Una petición TomTom al organizar la ruta completa. Navegar y pasar de parada
+reutilizan los tramos e indicaciones de esa respuesta, sin nuevas peticiones.
+No hay recálculos automáticos por tiempo, desvíos o recuperar conexión.
+Recalcular actualiza manualmente las paradas pendientes con una petición.
+La ETA se estima con el recorrido guardado: no refleja tráfico nuevo.
+El tráfico visual está apagado por defecto; Ver tráfico lo activa 30 segundos.
+Esa consulta opcional carga varias imágenes y consume peticiones adicionales.
+No existe un límite global para 100 usuarios en este HTML: consulta el consumo
+y las cuotas reales de tu cuenta TomTom. Una recarga pierde el recorrido.
+
+La instalación real y el GPS deben probarse desde el dominio autorizado.
+Se mantienen el catálogo de centros y el orden de servicios de la versión anterior.
+
+IDENTIDAD DE ESTA EDICIÓN
+En Ruta · UGT Sanir Programados.
+Adaptación de Tecni Ruta, creado por Txuwa. Se conservan las reglas de
+ordenación, el catálogo de centros y la navegación visual del archivo recibido.
+La clave TomTom facilitada está configurada en index.html. No es necesario
+introducirla en cada móvil. La instalación no implica un límite de gasto global.
+
+RECURSOS
+Leaflet 1.9.4 se incluye localmente con su licencia en vendor/leaflet/LICENSE.
+Los estilos usan fuentes del sistema. Se mantienen las atribuciones de
+OpenStreetMap, TomTom, CartoCiudad y Photon en la aplicación.
+
+Se ha corregido la ayuda antigua que afirmaba actualizaciones automáticas.
+Ver tráfico sigue siendo opcional durante 30 segundos y puede solicitar
+varias teselas. Organizar, Actualizar ruta y Recalcular son acciones distintas
+que pueden consultar TomTom. No se ha implementado un límite compartido de
+cuenta: ese control no puede garantizarlo un HTML distribuido entre móviles.
+
+COMPROBACIONES DE ESTA ENTREGA
+Clave aceptada por TomTom con Referer https://ugt-sanir-programados.github.io/:
+una petición de ruta de prueba respondió HTTP 200 con ruta e indicaciones.
+Sin Referer autorizado, el proveedor rechaza la petición. No se ha comprobado
+la configuración de dominios de tu cuenta ni otros dominios de despliegue.
+
+Pruebas automáticas con respuestas simuladas: arranque sin consultas TomTom,
+organización en entradas y salidas, prioridades de recogida, reutilización
+al navegar y cambiar de parada, ausencia de consultas por GPS y temporizadores,
+recalcular manualmente, búsqueda local y tráfico opcional durante 30 segundos.
+El planificador y catálogo son idénticos a los originales. Sintaxis y
+recursos locales verificados. Quedan pendientes la revisión visual en navegador,
+la instalación y el recorrido con GPS en un móvil real.

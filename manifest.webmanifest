@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "En Ruta · UGT Sanir Programados",
+  "short_name": "En Ruta UGT",
+  "description": "Organizador de servicios de UGT Sanir Programados con navegación visual y modo ahorro",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111f2b",
+  "theme_color": "#b50924",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
